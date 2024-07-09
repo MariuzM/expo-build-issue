@@ -1,0 +1,14 @@
+{
+	"cli": {
+		"version": ">= 7.2.0",
+		"promptToConfigurePushNotifications": false,
+		"appVersionSource": "remote"
+	},
+	"build": {
+		"production": {
+			"channel": "production",
+			"distribution": "store",
+			"autoIncrement": true
+		}
+	}
+}
